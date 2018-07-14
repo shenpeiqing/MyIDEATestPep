@@ -11,6 +11,7 @@ import java.io.IOException;
 public class ServletDemo extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("demo");
+        System.out.println("我又加了一样会代码");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
